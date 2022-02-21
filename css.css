@@ -1,0 +1,48 @@
+h1{
+    color: aqua;
+}
+    .text{
+        color: gold;
+    }
+    #oke{
+        color: blue;
+    }
+
+
+    @media only screen and (max-widht: 200px){
+        .sec-2 .sec-3{
+           width: auto;
+           height: auto;
+           display: flex;
+           background-color: white;
+       }
+       .sec-1 {
+           background-color: aqua;
+           width: 100%;
+           margin: 10px;
+       }
+       .box1{
+           background-color: aquamarine;
+           width: 50%;
+           margin: 10px;
+           height: 100px;
+       }
+       .box2 {
+           background-color: beige;
+           width: 50%;
+           margin: 10px;
+           height: 100px;
+       }
+       .box4{
+           background-color: black;
+           width: 100%;
+           margin: 10px;
+           height: 100px;
+       }
+       .box3{
+           display: none;
+       }
+       .box5{
+           display: none;
+       }
+    }
